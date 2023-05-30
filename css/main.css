@@ -857,11 +857,13 @@ p.t-des {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 140px;
+    margin: 0 132px;
   }
 }
-.title-cours {
-  padding: 0 66px 0 0;
+@media (min-width: 767px) {
+  .title-cours {
+    padding: 0 66px 0 0;
+  }
 }
 .title-about li ul {
   font-size: 30px;
